@@ -1,6 +1,21 @@
 .App {
   text-align: center;
+  display: flex;
+  width: 1500px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+/* .App {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +50,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.records {
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+  border-width: 5px;
+  border-style: solid;
 }
